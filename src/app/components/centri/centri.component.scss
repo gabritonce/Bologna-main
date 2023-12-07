@@ -1,0 +1,79 @@
+.container-centri {
+    padding-top:7em;
+    padding-left: 2em;
+    padding-right: 2em;
+ padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+  }
+  .div-centri{
+    display: flex;
+  
+    h3 {
+      font-weight: bold;
+      padding-top: 0.2em;
+      line-height: 1.2em;
+      font-size: 1.5em;
+    }
+  
+    svg{
+      margin-left: 1.6em;
+      margin-top: 0.4em;
+      color: #E2007A
+    }
+  }
+  
+  .map{
+    width: 100%;
+    height: 20em;
+  }
+
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8em;
+   .bi-bullseye{
+        margin-left: 1em;
+    }
+
+    .bi-caret-right-fill{
+        margin-left: 1em;
+    }
+
+  }
+  .button1{
+    background-color: #e2007a;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    border: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+ 
+  }
+
+  .button2{
+    background-color: #e2007a;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    border: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+  }

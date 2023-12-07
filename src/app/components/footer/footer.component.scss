@@ -1,0 +1,27 @@
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-bottom: 0;
+  padding: 0;
+}
+.preventivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bi-calculator {
+  color: #e2007a;
+  justify-content: center;
+}
+p {
+  color: #e2007a;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+hr {
+  border: solid 1px black;
+  padding: 0; /* Rimuovi il riempimento */
+  margin: 0; /* Rimuovi il margine se presente */
+}

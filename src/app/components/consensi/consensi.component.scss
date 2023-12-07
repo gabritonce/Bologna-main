@@ -1,0 +1,61 @@
+.button-back{
+  padding-top: 5.8em;
+  padding-left: 1.2em;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  margin-left: 0.7em;
+  color: #e2007a;
+}
+
+.container-consensi {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 11.5em;
+  padding-right: 2em;
+}
+.div-consensi {
+  display: flex;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  svg {
+    color: #e2007a;
+    margin-right: 0.2em;
+    margin-left: 0.7em;
+  }
+  img {
+    margin-left: 4em;
+  }
+}
+
+.div-check {
+  display: flex;
+  .marketing {
+    color: #e2007a;
+    margin: 0;
+    font-weight: bold;
+  }
+  .descrizione {
+    font-weight: 100;
+    font-size: 0.9em;
+  }
+}
+.button-consensi {
+  background-color: #e2007a;
+  color: white;
+  border-radius: 1.5em;
+  font-size: 0.7em;
+  border: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin-top: 1em;
+  font-weight: bold;
+}
+

@@ -1,0 +1,62 @@
+
+<app-navbar></app-navbar>
+
+<mat-drawer-container>
+    <mat-drawer #drawer>
+        <div class="container-navbar">
+            <p class="user">Ciao User</p>
+            <a class="profile" routerLink="/profile" routerLinkActive="active" (click)="closeDropdown()" >Il mio profilo</a>
+          <hr>
+            <ul class="navbar-nav">
+
+              
+                <a class="nav-link" routerLink="/centri" routerLinkActive="active" (click)="closeDropdown()" >I CENTRI BG</a>
+         
+              <hr>
+
+              <a class="nav-link" routerLink="/preventivo" routerLinkActive="active" (click)="closeDropdown()" >PREVENTIVO</a>
+         
+              <hr>
+
+              
+              <a class="nav-link" routerLink="/prenotazione" routerLinkActive="active" (click)="closeDropdown()" >PRENOTAZIONE</a>
+         
+              <hr>
+              <a class="nav-link" routerLink="/veicoli" routerLinkActive="active" (click)="closeDropdown()" >I MIEI VEICOLI</a>
+         
+              <hr>
+
+              <a class="nav-link" routerLink="/bonus" routerLinkActive="active" (click)="closeDropdown()" >BONUS BG</a>
+         
+              <hr>
+              <a class="nav-link" routerLink="/ricevute" routerLinkActive="active">PAGAMENTI RICEVUTE</a>
+         
+              <hr>
+              <a class="nav-link" routerLink="/blog" routerLinkActive="active">IL BLOG BG</a>
+         
+              <hr>
+              <a class="nav-link" routerLink="/blog" routerLinkActive="active">LAVORA CON NOI</a>
+         
+              <hr>
+              <a class="nav-link" routerLink="/blog" routerLinkActive="active">LA TUA OPINIONE</a>
+         
+              <hr>
+             
+                <a class="nav-link active" aria-current="page" routerLink="/home" routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }" (click)="closeDropdown()" >HOME</a>
+             
+              <hr>
+              
+                <a class="nav-link" routerLink="/login" routerLinkActive="active" (click)="closeDropdown()" >LOGIN</a>
+            
+              <hr>
+              <button>ACCADEMIA FELICITÀ</button>
+            </ul>
+          
+            
+      
+          </div>
+    </mat-drawer>
+    <router-outlet></router-outlet>
+  </mat-drawer-container>
+<app-footer></app-footer>
